@@ -1,15 +1,21 @@
 import { useState } from 'react'
+import Button from "./components/Button/Button";
+import Login from './components/formularioLogin/FormularioLogin';
+
+
 
 
 function App() {
- return(
-  <>
+    return (
+        <>
+            <Login />
+            <Button texto={'Logar'} type={Text} alerta={'Testando botão logar'} />
+            <Button texto={'Cadastrar'} type={Text} />
+           
 
-  <h1>Limpei the project</h1>
 
-
-  </>
- )
+        </>
+    )
 }
 
 export default App
